@@ -1,8 +1,11 @@
 /* HEADER */
 .banner {
-    background-image: url(/assets/images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
     background-size: cover;
-    min-height: 100vh;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
 }
 
 .banner h1 {
