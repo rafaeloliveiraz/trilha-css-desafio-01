@@ -1,0 +1,21 @@
+/* HEADER */
+.banner {
+    background-image: url(/assets/images/banner.png);
+    background-size: cover;
+}
+
+.banner h1 {
+
+}
+
+.logo {
+    margin: auto;
+    background-color: #00000080;
+    border-radius: 100%;
+}
+
+
+/* BODY */
+
+
+/* FOOTER */
