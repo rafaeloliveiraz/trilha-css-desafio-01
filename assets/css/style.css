@@ -77,16 +77,24 @@ section {
 }
 
 .banner .banner-content button {
-  color: #31A8DD;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  background-color: transparent;
-  border-image: linear-gradient(#3BA1CD, #1572B7);
-  border-image-slice: 10;
-  border-radius: 30px;
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border: 3px solid #31A8DD;
+    border-image-slice: 10;
+    border-radius: 70px;
+    box-shadow: 0px 0px 20px -5px #53c7ff;
+}
+
+.banner .banner-content button:hover {
+    background-color: #31A8DD;
+    color: white;
+    box-shadow: 0px 0px 20px -5px #53c7ff, inset 0px 0px 20px -5px #53c7ff;
+    transition: all 0.3s ease-in-out;
 }
 
 /* =========================
