@@ -32,7 +32,7 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100vh;
   padding-top: 60px;
   border-bottom: 1px solid #33A8DB80;
 }
@@ -93,8 +93,8 @@ section {
 .banner .banner-content button:hover {
     background-color: #31A8DD;
     color: white;
-    box-shadow: 0px 0px 20px -5px #53c7ff, inset 0px 0px 20px -5px #53c7ff;
-    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 40px -5px #cbeeff;
+    transition: all 0.8s ease-in-out;
 }
 
 /* =========================
